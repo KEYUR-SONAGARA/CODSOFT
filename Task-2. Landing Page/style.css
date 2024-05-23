@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url("assets/Fitness6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+    height: 80px;
+}
+
+nav img{
+    width: 5%;
+    margin-left: 1px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 30px;
+    font-size: inline;
+    color: #fefbf6;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: #fefbf6;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color: #61677a ;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color: #61677a;
+}
+
+nav ol{
+    float: right;
+    line-height: 100px;
+}
+
+.article{
+    width: 50%;
+    margin-top: 300px;
+    margin-left: 200px;
+    text-align: center;
+    transform: translate(25vh);
+}
+
+.article h1{
+    font-size: 30px;
+    color: #eef7ff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article p{
+    font-size: 17px;
+    color: #f6f5f2;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.article .btn{
+    margin-bottom: 150px;
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: orange;
+}
+
+.article .btn:hover{
+    background-color: #6dc5d1;
+    transition: 0.5s ease;
+}
